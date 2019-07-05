@@ -1,0 +1,174 @@
+2019-07-05 12:03:05.935  INFO 7592 --- [main] z.c.a.b.BookmanagementApplicationTests   : Starting BookmanagementApplicationTests on Reverside with PID 7592 (started by Celeste in F:\bookmanagement)
+2019-07-05 12:03:05.937  INFO 7592 --- [main] z.c.a.b.BookmanagementApplicationTests   : No active profile set, falling back to default profiles: default
+2019-07-05 12:03:05.988 DEBUG 7592 --- [main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@287ea3
+2019-07-05 12:03:07.012  INFO 7592 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-07-05 12:03:07.041  INFO 7592 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 17ms. Found 0 repository interfaces.
+2019-07-05 12:03:07.578  INFO 7592 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$3e23f665] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-05 12:03:07.624  INFO 7592 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$bda44397] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-05 12:03:07.899  INFO 7592 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-07-05 12:03:08.105  INFO 7592 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-07-05 12:03:09.726  INFO 7592 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-07-05 12:03:10.646 DEBUG 7592 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/**/favicon.ico] in 'faviconHandlerMapping'
+2019-07-05 12:03:11.017  INFO 7592 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-05 12:03:11.055 DEBUG 7592 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2019-07-05 12:03:11.102  WARN 7592 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-07-05 12:03:11.158 DEBUG 7592 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 2 mappings in 'requestMappingHandlerMapping'
+2019-07-05 12:03:11.191 DEBUG 7592 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2019-07-05 12:03:11.210 DEBUG 7592 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2019-07-05 12:03:11.817  INFO 7592 --- [main] z.c.a.b.BookmanagementApplicationTests   : Started BookmanagementApplicationTests in 6.386 seconds (JVM running for 7.432)
+2019-07-05 12:03:12.043 DEBUG 7592 --- [Thread-4] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@287ea3, started on Fri Jul 05 12:03:05 CAT 2019
+2019-07-05 12:03:12.051  INFO 7592 --- [Thread-4] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-07-05 12:03:12.054  INFO 7592 --- [Thread-4] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-07-05 12:03:12.066  INFO 7592 --- [Thread-4] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-199]
+2019-07-05 12:03:12.067  INFO 7592 --- [Thread-4] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-07-05 12:03:12.071  INFO 7592 --- [Thread-4] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2019-07-05 12:03:43.227  INFO 7868 --- [restartedMain] z.c.a.b.BookmanagementApplication        : Starting BookmanagementApplication on Reverside with PID 7868 (F:\bookmanagement\target\classes started by Celeste in F:\bookmanagement)
+2019-07-05 12:03:43.230  INFO 7868 --- [restartedMain] z.c.a.b.BookmanagementApplication        : No active profile set, falling back to default profiles: default
+2019-07-05 12:03:43.287  INFO 7868 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-07-05 12:03:43.288  INFO 7868 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-07-05 12:03:44.266  INFO 7868 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-07-05 12:03:44.292  INFO 7868 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 16ms. Found 0 repository interfaces.
+2019-07-05 12:03:44.767  INFO 7868 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$58b4c180] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-05 12:03:44.798  INFO 7868 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$d8350eb2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-05 12:03:45.616  INFO 7868 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-07-05 12:03:45.649  INFO 7868 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-07-05 12:03:45.649  INFO 7868 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-07-05 12:03:45.804  INFO 7868 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-07-05 12:03:45.804 DEBUG 7868 --- [restartedMain] o.s.web.context.ContextLoader            : Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2019-07-05 12:03:45.805  INFO 7868 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2517 ms
+2019-07-05 12:03:46.130  INFO 7868 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-07-05 12:03:46.319  INFO 7868 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-07-05 12:03:47.647  INFO 7868 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-07-05 12:03:47.677  INFO 7868 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-07-05 12:03:48.345 DEBUG 7868 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/**/favicon.ico] in 'faviconHandlerMapping'
+2019-07-05 12:03:48.533  INFO 7868 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-05 12:03:48.559 DEBUG 7868 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2019-07-05 12:03:48.601  WARN 7868 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-07-05 12:03:48.654 DEBUG 7868 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 2 mappings in 'requestMappingHandlerMapping'
+2019-07-05 12:03:48.678 DEBUG 7868 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2019-07-05 12:03:48.694 DEBUG 7868 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2019-07-05 12:03:49.195  INFO 7868 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-07-05 12:03:49.199  INFO 7868 --- [restartedMain] z.c.a.b.BookmanagementApplication        : Started BookmanagementApplication in 6.485 seconds (JVM running for 7.028)
+2019-07-05 12:04:57.921  INFO 7868 --- [Thread-6] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-07-05 12:04:57.927  INFO 7868 --- [Thread-6] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-07-05 12:04:57.935  INFO 7868 --- [Thread-6] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-199]
+2019-07-05 12:04:57.937  INFO 7868 --- [Thread-6] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-07-05 12:04:57.946  INFO 7868 --- [Thread-6] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2019-07-05 12:05:01.459  INFO 7868 --- [restartedMain] z.c.a.b.BookmanagementApplication        : Starting BookmanagementApplication on Reverside with PID 7868 (F:\bookmanagement\target\classes started by Celeste in F:\bookmanagement)
+2019-07-05 12:05:01.460  INFO 7868 --- [restartedMain] z.c.a.b.BookmanagementApplication        : No active profile set, falling back to default profiles: default
+2019-07-05 12:05:01.791  INFO 7868 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-07-05 12:05:01.794  INFO 7868 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2ms. Found 0 repository interfaces.
+2019-07-05 12:05:01.860  INFO 7868 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$58b4c180] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-05 12:05:01.862  INFO 7868 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$d8350eb2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-05 12:05:02.027  INFO 7868 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-07-05 12:05:02.028  INFO 7868 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-07-05 12:05:02.028  INFO 7868 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-07-05 12:05:02.055  INFO 7868 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-07-05 12:05:02.055 DEBUG 7868 --- [restartedMain] o.s.web.context.ContextLoader            : Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2019-07-05 12:05:02.055  INFO 7868 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 593 ms
+2019-07-05 12:05:02.111  INFO 7868 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2019-07-05 12:05:02.113  INFO 7868 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2019-07-05 12:05:02.199  INFO 7868 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-07-05 12:05:02.208  INFO 7868 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-07-05 12:05:02.332 DEBUG 7868 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/**/favicon.ico] in 'faviconHandlerMapping'
+2019-07-05 12:05:02.369  INFO 7868 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-05 12:05:02.375 DEBUG 7868 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2019-07-05 12:05:02.377  WARN 7868 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-07-05 12:05:02.386 DEBUG 7868 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 2 mappings in 'requestMappingHandlerMapping'
+2019-07-05 12:05:02.393 DEBUG 7868 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2019-07-05 12:05:02.399 DEBUG 7868 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2019-07-05 12:05:02.527  INFO 7868 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-07-05 12:05:02.528  INFO 7868 --- [restartedMain] z.c.a.b.BookmanagementApplication        : Started BookmanagementApplication in 1.101 seconds (JVM running for 80.356)
+2019-07-05 12:05:02.530  INFO 7868 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-07-05 12:05:27.895  INFO 7868 --- [http-nio-8080-exec-5] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-07-05 12:05:27.896  INFO 7868 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-07-05 12:05:27.896 DEBUG 7868 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2019-07-05 12:05:27.932 DEBUG 7868 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2019-07-05 12:05:27.933  INFO 7868 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed initialization in 37 ms
+2019-07-05 12:05:27.936 DEBUG 7868 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/favicon.ico", parameters={}
+2019-07-05 12:05:27.941 DEBUG 7868 --- [http-nio-8080-exec-5] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/], ServletContext resource [/], class path resource []]
+2019-07-05 12:05:27.947 DEBUG 7868 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 304 NOT_MODIFIED
+2019-07-05 12:05:45.503 DEBUG 7868 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/swagger-ui.html", parameters={}
+2019-07-05 12:05:45.518 DEBUG 7868 --- [http-nio-8080-exec-8] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2019-07-05 12:05:45.638 DEBUG 7868 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 304 NOT_MODIFIED
+2019-07-05 12:05:45.676 DEBUG 7868 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/webjars/springfox-swagger-ui/css/typography.css", parameters={}
+2019-07-05 12:05:45.680 DEBUG 7868 --- [http-nio-8080-exec-6] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/webjars/"]
+2019-07-05 12:05:45.680 DEBUG 7868 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/webjars/springfox-swagger-ui/css/reset.css", parameters={}
+2019-07-05 12:05:45.682 DEBUG 7868 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 304 NOT_MODIFIED
+2019-07-05 12:05:45.684 DEBUG 7868 --- [http-nio-8080-exec-2] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/webjars/"]
+2019-07-05 12:05:45.686 DEBUG 7868 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 304 NOT_MODIFIED
+2019-07-05 12:05:45.707 DEBUG 7868 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/webjars/springfox-swagger-ui/lib/jquery-1.8.0.min.js", parameters={}
+2019-07-05 12:05:45.707 DEBUG 7868 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/webjars/springfox-swagger-ui/lib/jquery.slideto.min.js", parameters={}
+2019-07-05 12:05:45.710 DEBUG 7868 --- [http-nio-8080-exec-9] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/webjars/"]
+2019-07-05 12:05:45.710 DEBUG 7868 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/webjars/springfox-swagger-ui/css/screen.css", parameters={}
+2019-07-05 12:05:45.713 DEBUG 7868 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/webjars/springfox-swagger-ui/lib/handlebars-2.0.0.js", parameters={}
+2019-07-05 12:05:45.714 DEBUG 7868 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/webjars/springfox-swagger-ui/lib/jquery.ba-bbq.min.js", parameters={}
+2019-07-05 12:05:45.715 DEBUG 7868 --- [http-nio-8080-exec-10] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/webjars/"]
+2019-07-05 12:05:45.711 DEBUG 7868 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/webjars/springfox-swagger-ui/lib/jquery.wiggle.min.js", parameters={}
+2019-07-05 12:05:45.712 DEBUG 7868 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 304 NOT_MODIFIED
+2019-07-05 12:05:45.718 DEBUG 7868 --- [http-nio-8080-exec-3] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/webjars/"]
+2019-07-05 12:05:45.712 DEBUG 7868 --- [http-nio-8080-exec-4] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/webjars/"]
+2019-07-05 12:05:45.715 DEBUG 7868 --- [http-nio-8080-exec-1] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/webjars/"]
+2019-07-05 12:05:45.720 DEBUG 7868 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 304 NOT_MODIFIED
+2019-07-05 12:05:45.720 DEBUG 7868 --- [http-nio-8080-exec-7] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/webjars/"]
+2019-07-05 12:05:45.717 DEBUG 7868 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 304 NOT_MODIFIED
+2019-07-05 12:05:45.722 DEBUG 7868 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 304 NOT_MODIFIED
+2019-07-05 12:05:45.722 DEBUG 7868 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 304 NOT_MODIFIED
+2019-07-05 12:05:45.722 DEBUG 7868 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 304 NOT_MODIFIED
+2019-07-05 12:05:45.769 DEBUG 7868 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/webjars/springfox-swagger-ui/lib/underscore-min.js", parameters={}
+2019-07-05 12:05:45.770 DEBUG 7868 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/webjars/springfox-swagger-ui/swagger-ui.js", parameters={}
+2019-07-05 12:05:45.772 DEBUG 7868 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/webjars/springfox-swagger-ui/springfox.js", parameters={}
+2019-07-05 12:05:45.782 DEBUG 7868 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/webjars/springfox-swagger-ui/lib/highlight.7.3.pack.js", parameters={}
+2019-07-05 12:05:45.784 DEBUG 7868 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/webjars/springfox-swagger-ui/lib/backbone-min.js", parameters={}
+2019-07-05 12:05:45.779 DEBUG 7868 --- [http-nio-8080-exec-5] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/webjars/"]
+2019-07-05 12:05:45.780 DEBUG 7868 --- [http-nio-8080-exec-6] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/webjars/"]
+2019-07-05 12:05:45.791 DEBUG 7868 --- [http-nio-8080-exec-8] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/webjars/"]
+2019-07-05 12:05:45.788 DEBUG 7868 --- [http-nio-8080-exec-2] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/webjars/"]
+2019-07-05 12:05:45.792 DEBUG 7868 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 304 NOT_MODIFIED
+2019-07-05 12:05:45.792 DEBUG 7868 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 304 NOT_MODIFIED
+2019-07-05 12:05:45.793 DEBUG 7868 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 304 NOT_MODIFIED
+2019-07-05 12:05:45.794 DEBUG 7868 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/webjars/springfox-swagger-ui/lib/marked.js", parameters={}
+2019-07-05 12:05:45.794 DEBUG 7868 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 304 NOT_MODIFIED
+2019-07-05 12:05:45.788 DEBUG 7868 --- [http-nio-8080-exec-9] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/webjars/"]
+2019-07-05 12:05:45.797 DEBUG 7868 --- [http-nio-8080-exec-5] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/webjars/"]
+2019-07-05 12:05:45.798 DEBUG 7868 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 304 NOT_MODIFIED
+2019-07-05 12:05:45.800 DEBUG 7868 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 304 NOT_MODIFIED
+2019-07-05 12:05:45.865 DEBUG 7868 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/webjars/springfox-swagger-ui/lib/swagger-oauth.js", parameters={}
+2019-07-05 12:05:45.871 DEBUG 7868 --- [http-nio-8080-exec-10] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/webjars/"]
+2019-07-05 12:05:45.876 DEBUG 7868 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 304 NOT_MODIFIED
+2019-07-05 12:05:46.113 DEBUG 7868 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/webjars/springfox-swagger-ui/images/logo_small.png", parameters={}
+2019-07-05 12:05:46.115 DEBUG 7868 --- [http-nio-8080-exec-7] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/webjars/"]
+2019-07-05 12:05:46.116 DEBUG 7868 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 304 NOT_MODIFIED
+2019-07-05 12:05:46.152 DEBUG 7868 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/configuration/security", parameters={}
+2019-07-05 12:05:46.155 DEBUG 7868 --- [http-nio-8080-exec-1] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2019-07-05 12:05:46.158 DEBUG 7868 --- [http-nio-8080-exec-1] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2019-07-05 12:05:46.158 DEBUG 7868 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2019-07-05 12:05:46.152 DEBUG 7868 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/configuration/ui", parameters={}
+2019-07-05 12:05:46.161 DEBUG 7868 --- [http-nio-8080-exec-4] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2019-07-05 12:05:46.165 DEBUG 7868 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2019-07-05 12:05:46.166 DEBUG 7868 --- [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-07-05 12:05:46.164 DEBUG 7868 --- [http-nio-8080-exec-4] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2019-07-05 12:05:46.167 DEBUG 7868 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2019-07-05 12:05:46.167 DEBUG 7868 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2019-07-05 12:05:46.170 DEBUG 7868 --- [http-nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-07-05 12:05:46.181 DEBUG 7868 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/swagger-resources", parameters={}
+2019-07-05 12:05:46.184 DEBUG 7868 --- [http-nio-8080-exec-6] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2019-07-05 12:05:46.186 DEBUG 7868 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/webjars/springfox-swagger-ui/fonts/droid-sans-v6-latin-700.woff2", parameters={}
+2019-07-05 12:05:46.188 DEBUG 7868 --- [http-nio-8080-exec-6] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2019-07-05 12:05:46.189 DEBUG 7868 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2019-07-05 12:05:46.189 DEBUG 7868 --- [http-nio-8080-exec-8] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/webjars/"]
+2019-07-05 12:05:46.189 DEBUG 7868 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2019-07-05 12:05:46.190 DEBUG 7868 --- [http-nio-8080-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-07-05 12:05:46.192 DEBUG 7868 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/webjars/springfox-swagger-ui/fonts/droid-sans-v6-latin-regular.woff2", parameters={}
+2019-07-05 12:05:46.194 DEBUG 7868 --- [http-nio-8080-exec-2] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/webjars/"]
+2019-07-05 12:05:46.203 DEBUG 7868 --- [http-nio-8080-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/javascript, */*;q=0.01] and supported [application/hal+json, application/json]
+2019-07-05 12:05:46.203 DEBUG 7868 --- [http-nio-8080-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/javascript, */*;q=0.01] and supported [application/hal+json, application/json]
+2019-07-05 12:05:46.204 DEBUG 7868 --- [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/javascript, */*;q=0.01] and supported [application/hal+json, application/json]
+2019-07-05 12:05:46.205 DEBUG 7868 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 304 NOT_MODIFIED
+2019-07-05 12:05:46.205 DEBUG 7868 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 304 NOT_MODIFIED
+2019-07-05 12:05:46.219 DEBUG 7868 --- [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Fri Jul 05 12:05:46 CAT 2019, status=404, error=Not Found, message=No message available,  (truncated)...]
+2019-07-05 12:05:46.219 DEBUG 7868 --- [http-nio-8080-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Fri Jul 05 12:05:46 CAT 2019, status=404, error=Not Found, message=No message available,  (truncated)...]
+2019-07-05 12:05:46.219 DEBUG 7868 --- [http-nio-8080-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Fri Jul 05 12:05:46 CAT 2019, status=404, error=Not Found, message=No message available,  (truncated)...]
+2019-07-05 12:05:46.268 DEBUG 7868 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2019-07-05 12:05:46.268 DEBUG 7868 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2019-07-05 12:05:46.268 DEBUG 7868 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
