@@ -1,174 +1,352 @@
-2019-07-05 12:03:05.935  INFO 7592 --- [main] z.c.a.b.BookmanagementApplicationTests   : Starting BookmanagementApplicationTests on Reverside with PID 7592 (started by Celeste in F:\bookmanagement)
-2019-07-05 12:03:05.937  INFO 7592 --- [main] z.c.a.b.BookmanagementApplicationTests   : No active profile set, falling back to default profiles: default
-2019-07-05 12:03:05.988 DEBUG 7592 --- [main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@287ea3
-2019-07-05 12:03:07.012  INFO 7592 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
-2019-07-05 12:03:07.041  INFO 7592 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 17ms. Found 0 repository interfaces.
-2019-07-05 12:03:07.578  INFO 7592 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$3e23f665] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2019-07-05 12:03:07.624  INFO 7592 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$bda44397] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2019-07-05 12:03:07.899  INFO 7592 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2019-07-05 12:03:08.105  INFO 7592 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2019-07-05 12:03:09.726  INFO 7592 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2019-07-05 12:03:10.646 DEBUG 7592 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/**/favicon.ico] in 'faviconHandlerMapping'
-2019-07-05 12:03:11.017  INFO 7592 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2019-07-05 12:03:11.055 DEBUG 7592 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
-2019-07-05 12:03:11.102  WARN 7592 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2019-07-05 12:03:11.158 DEBUG 7592 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 2 mappings in 'requestMappingHandlerMapping'
-2019-07-05 12:03:11.191 DEBUG 7592 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
-2019-07-05 12:03:11.210 DEBUG 7592 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
-2019-07-05 12:03:11.817  INFO 7592 --- [main] z.c.a.b.BookmanagementApplicationTests   : Started BookmanagementApplicationTests in 6.386 seconds (JVM running for 7.432)
-2019-07-05 12:03:12.043 DEBUG 7592 --- [Thread-4] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@287ea3, started on Fri Jul 05 12:03:05 CAT 2019
-2019-07-05 12:03:12.051  INFO 7592 --- [Thread-4] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
-2019-07-05 12:03:12.054  INFO 7592 --- [Thread-4] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2019-07-05 12:03:12.066  INFO 7592 --- [Thread-4] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-199]
-2019-07-05 12:03:12.067  INFO 7592 --- [Thread-4] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2019-07-05 12:03:12.071  INFO 7592 --- [Thread-4] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2019-07-05 12:03:43.227  INFO 7868 --- [restartedMain] z.c.a.b.BookmanagementApplication        : Starting BookmanagementApplication on Reverside with PID 7868 (F:\bookmanagement\target\classes started by Celeste in F:\bookmanagement)
-2019-07-05 12:03:43.230  INFO 7868 --- [restartedMain] z.c.a.b.BookmanagementApplication        : No active profile set, falling back to default profiles: default
-2019-07-05 12:03:43.287  INFO 7868 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2019-07-05 12:03:43.288  INFO 7868 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2019-07-05 12:03:44.266  INFO 7868 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
-2019-07-05 12:03:44.292  INFO 7868 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 16ms. Found 0 repository interfaces.
-2019-07-05 12:03:44.767  INFO 7868 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$58b4c180] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2019-07-05 12:03:44.798  INFO 7868 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$d8350eb2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2019-07-05 12:03:45.616  INFO 7868 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2019-07-05 12:03:45.649  INFO 7868 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2019-07-05 12:03:45.649  INFO 7868 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.17]
-2019-07-05 12:03:45.804  INFO 7868 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2019-07-05 12:03:45.804 DEBUG 7868 --- [restartedMain] o.s.web.context.ContextLoader            : Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
-2019-07-05 12:03:45.805  INFO 7868 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2517 ms
-2019-07-05 12:03:46.130  INFO 7868 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2019-07-05 12:03:46.319  INFO 7868 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2019-07-05 12:03:47.647  INFO 7868 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2019-07-05 12:03:47.677  INFO 7868 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2019-07-05 12:03:48.345 DEBUG 7868 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/**/favicon.ico] in 'faviconHandlerMapping'
-2019-07-05 12:03:48.533  INFO 7868 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2019-07-05 12:03:48.559 DEBUG 7868 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
-2019-07-05 12:03:48.601  WARN 7868 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2019-07-05 12:03:48.654 DEBUG 7868 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 2 mappings in 'requestMappingHandlerMapping'
-2019-07-05 12:03:48.678 DEBUG 7868 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
-2019-07-05 12:03:48.694 DEBUG 7868 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
-2019-07-05 12:03:49.195  INFO 7868 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2019-07-05 12:03:49.199  INFO 7868 --- [restartedMain] z.c.a.b.BookmanagementApplication        : Started BookmanagementApplication in 6.485 seconds (JVM running for 7.028)
-2019-07-05 12:04:57.921  INFO 7868 --- [Thread-6] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
-2019-07-05 12:04:57.927  INFO 7868 --- [Thread-6] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2019-07-05 12:04:57.935  INFO 7868 --- [Thread-6] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-199]
-2019-07-05 12:04:57.937  INFO 7868 --- [Thread-6] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2019-07-05 12:04:57.946  INFO 7868 --- [Thread-6] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2019-07-05 12:05:01.459  INFO 7868 --- [restartedMain] z.c.a.b.BookmanagementApplication        : Starting BookmanagementApplication on Reverside with PID 7868 (F:\bookmanagement\target\classes started by Celeste in F:\bookmanagement)
-2019-07-05 12:05:01.460  INFO 7868 --- [restartedMain] z.c.a.b.BookmanagementApplication        : No active profile set, falling back to default profiles: default
-2019-07-05 12:05:01.791  INFO 7868 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
-2019-07-05 12:05:01.794  INFO 7868 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2ms. Found 0 repository interfaces.
-2019-07-05 12:05:01.860  INFO 7868 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$58b4c180] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2019-07-05 12:05:01.862  INFO 7868 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$d8350eb2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2019-07-05 12:05:02.027  INFO 7868 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2019-07-05 12:05:02.028  INFO 7868 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2019-07-05 12:05:02.028  INFO 7868 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.17]
-2019-07-05 12:05:02.055  INFO 7868 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2019-07-05 12:05:02.055 DEBUG 7868 --- [restartedMain] o.s.web.context.ContextLoader            : Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
-2019-07-05 12:05:02.055  INFO 7868 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 593 ms
-2019-07-05 12:05:02.111  INFO 7868 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
-2019-07-05 12:05:02.113  INFO 7868 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
-2019-07-05 12:05:02.199  INFO 7868 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2019-07-05 12:05:02.208  INFO 7868 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2019-07-05 12:05:02.332 DEBUG 7868 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/**/favicon.ico] in 'faviconHandlerMapping'
-2019-07-05 12:05:02.369  INFO 7868 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2019-07-05 12:05:02.375 DEBUG 7868 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
-2019-07-05 12:05:02.377  WARN 7868 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2019-07-05 12:05:02.386 DEBUG 7868 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 2 mappings in 'requestMappingHandlerMapping'
-2019-07-05 12:05:02.393 DEBUG 7868 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
-2019-07-05 12:05:02.399 DEBUG 7868 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
-2019-07-05 12:05:02.527  INFO 7868 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2019-07-05 12:05:02.528  INFO 7868 --- [restartedMain] z.c.a.b.BookmanagementApplication        : Started BookmanagementApplication in 1.101 seconds (JVM running for 80.356)
-2019-07-05 12:05:02.530  INFO 7868 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
-2019-07-05 12:05:27.895  INFO 7868 --- [http-nio-8080-exec-5] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2019-07-05 12:05:27.896  INFO 7868 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2019-07-05 12:05:27.896 DEBUG 7868 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
-2019-07-05 12:05:27.932 DEBUG 7868 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
-2019-07-05 12:05:27.933  INFO 7868 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed initialization in 37 ms
-2019-07-05 12:05:27.936 DEBUG 7868 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/favicon.ico", parameters={}
-2019-07-05 12:05:27.941 DEBUG 7868 --- [http-nio-8080-exec-5] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/], ServletContext resource [/], class path resource []]
-2019-07-05 12:05:27.947 DEBUG 7868 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 304 NOT_MODIFIED
-2019-07-05 12:05:45.503 DEBUG 7868 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/swagger-ui.html", parameters={}
-2019-07-05 12:05:45.518 DEBUG 7868 --- [http-nio-8080-exec-8] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
-2019-07-05 12:05:45.638 DEBUG 7868 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 304 NOT_MODIFIED
-2019-07-05 12:05:45.676 DEBUG 7868 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/webjars/springfox-swagger-ui/css/typography.css", parameters={}
-2019-07-05 12:05:45.680 DEBUG 7868 --- [http-nio-8080-exec-6] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/webjars/"]
-2019-07-05 12:05:45.680 DEBUG 7868 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/webjars/springfox-swagger-ui/css/reset.css", parameters={}
-2019-07-05 12:05:45.682 DEBUG 7868 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 304 NOT_MODIFIED
-2019-07-05 12:05:45.684 DEBUG 7868 --- [http-nio-8080-exec-2] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/webjars/"]
-2019-07-05 12:05:45.686 DEBUG 7868 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 304 NOT_MODIFIED
-2019-07-05 12:05:45.707 DEBUG 7868 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/webjars/springfox-swagger-ui/lib/jquery-1.8.0.min.js", parameters={}
-2019-07-05 12:05:45.707 DEBUG 7868 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/webjars/springfox-swagger-ui/lib/jquery.slideto.min.js", parameters={}
-2019-07-05 12:05:45.710 DEBUG 7868 --- [http-nio-8080-exec-9] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/webjars/"]
-2019-07-05 12:05:45.710 DEBUG 7868 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/webjars/springfox-swagger-ui/css/screen.css", parameters={}
-2019-07-05 12:05:45.713 DEBUG 7868 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/webjars/springfox-swagger-ui/lib/handlebars-2.0.0.js", parameters={}
-2019-07-05 12:05:45.714 DEBUG 7868 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/webjars/springfox-swagger-ui/lib/jquery.ba-bbq.min.js", parameters={}
-2019-07-05 12:05:45.715 DEBUG 7868 --- [http-nio-8080-exec-10] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/webjars/"]
-2019-07-05 12:05:45.711 DEBUG 7868 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/webjars/springfox-swagger-ui/lib/jquery.wiggle.min.js", parameters={}
-2019-07-05 12:05:45.712 DEBUG 7868 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 304 NOT_MODIFIED
-2019-07-05 12:05:45.718 DEBUG 7868 --- [http-nio-8080-exec-3] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/webjars/"]
-2019-07-05 12:05:45.712 DEBUG 7868 --- [http-nio-8080-exec-4] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/webjars/"]
-2019-07-05 12:05:45.715 DEBUG 7868 --- [http-nio-8080-exec-1] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/webjars/"]
-2019-07-05 12:05:45.720 DEBUG 7868 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 304 NOT_MODIFIED
-2019-07-05 12:05:45.720 DEBUG 7868 --- [http-nio-8080-exec-7] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/webjars/"]
-2019-07-05 12:05:45.717 DEBUG 7868 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 304 NOT_MODIFIED
-2019-07-05 12:05:45.722 DEBUG 7868 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 304 NOT_MODIFIED
-2019-07-05 12:05:45.722 DEBUG 7868 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 304 NOT_MODIFIED
-2019-07-05 12:05:45.722 DEBUG 7868 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 304 NOT_MODIFIED
-2019-07-05 12:05:45.769 DEBUG 7868 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/webjars/springfox-swagger-ui/lib/underscore-min.js", parameters={}
-2019-07-05 12:05:45.770 DEBUG 7868 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/webjars/springfox-swagger-ui/swagger-ui.js", parameters={}
-2019-07-05 12:05:45.772 DEBUG 7868 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/webjars/springfox-swagger-ui/springfox.js", parameters={}
-2019-07-05 12:05:45.782 DEBUG 7868 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/webjars/springfox-swagger-ui/lib/highlight.7.3.pack.js", parameters={}
-2019-07-05 12:05:45.784 DEBUG 7868 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/webjars/springfox-swagger-ui/lib/backbone-min.js", parameters={}
-2019-07-05 12:05:45.779 DEBUG 7868 --- [http-nio-8080-exec-5] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/webjars/"]
-2019-07-05 12:05:45.780 DEBUG 7868 --- [http-nio-8080-exec-6] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/webjars/"]
-2019-07-05 12:05:45.791 DEBUG 7868 --- [http-nio-8080-exec-8] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/webjars/"]
-2019-07-05 12:05:45.788 DEBUG 7868 --- [http-nio-8080-exec-2] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/webjars/"]
-2019-07-05 12:05:45.792 DEBUG 7868 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 304 NOT_MODIFIED
-2019-07-05 12:05:45.792 DEBUG 7868 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 304 NOT_MODIFIED
-2019-07-05 12:05:45.793 DEBUG 7868 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 304 NOT_MODIFIED
-2019-07-05 12:05:45.794 DEBUG 7868 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/webjars/springfox-swagger-ui/lib/marked.js", parameters={}
-2019-07-05 12:05:45.794 DEBUG 7868 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 304 NOT_MODIFIED
-2019-07-05 12:05:45.788 DEBUG 7868 --- [http-nio-8080-exec-9] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/webjars/"]
-2019-07-05 12:05:45.797 DEBUG 7868 --- [http-nio-8080-exec-5] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/webjars/"]
-2019-07-05 12:05:45.798 DEBUG 7868 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 304 NOT_MODIFIED
-2019-07-05 12:05:45.800 DEBUG 7868 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 304 NOT_MODIFIED
-2019-07-05 12:05:45.865 DEBUG 7868 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/webjars/springfox-swagger-ui/lib/swagger-oauth.js", parameters={}
-2019-07-05 12:05:45.871 DEBUG 7868 --- [http-nio-8080-exec-10] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/webjars/"]
-2019-07-05 12:05:45.876 DEBUG 7868 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 304 NOT_MODIFIED
-2019-07-05 12:05:46.113 DEBUG 7868 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/webjars/springfox-swagger-ui/images/logo_small.png", parameters={}
-2019-07-05 12:05:46.115 DEBUG 7868 --- [http-nio-8080-exec-7] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/webjars/"]
-2019-07-05 12:05:46.116 DEBUG 7868 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 304 NOT_MODIFIED
-2019-07-05 12:05:46.152 DEBUG 7868 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/configuration/security", parameters={}
-2019-07-05 12:05:46.155 DEBUG 7868 --- [http-nio-8080-exec-1] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
-2019-07-05 12:05:46.158 DEBUG 7868 --- [http-nio-8080-exec-1] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
-2019-07-05 12:05:46.158 DEBUG 7868 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
-2019-07-05 12:05:46.152 DEBUG 7868 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/configuration/ui", parameters={}
-2019-07-05 12:05:46.161 DEBUG 7868 --- [http-nio-8080-exec-4] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
-2019-07-05 12:05:46.165 DEBUG 7868 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
-2019-07-05 12:05:46.166 DEBUG 7868 --- [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
-2019-07-05 12:05:46.164 DEBUG 7868 --- [http-nio-8080-exec-4] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
-2019-07-05 12:05:46.167 DEBUG 7868 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
-2019-07-05 12:05:46.167 DEBUG 7868 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
-2019-07-05 12:05:46.170 DEBUG 7868 --- [http-nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
-2019-07-05 12:05:46.181 DEBUG 7868 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/swagger-resources", parameters={}
-2019-07-05 12:05:46.184 DEBUG 7868 --- [http-nio-8080-exec-6] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
-2019-07-05 12:05:46.186 DEBUG 7868 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/webjars/springfox-swagger-ui/fonts/droid-sans-v6-latin-700.woff2", parameters={}
-2019-07-05 12:05:46.188 DEBUG 7868 --- [http-nio-8080-exec-6] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
-2019-07-05 12:05:46.189 DEBUG 7868 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
-2019-07-05 12:05:46.189 DEBUG 7868 --- [http-nio-8080-exec-8] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/webjars/"]
-2019-07-05 12:05:46.189 DEBUG 7868 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
-2019-07-05 12:05:46.190 DEBUG 7868 --- [http-nio-8080-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
-2019-07-05 12:05:46.192 DEBUG 7868 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/webjars/springfox-swagger-ui/fonts/droid-sans-v6-latin-regular.woff2", parameters={}
-2019-07-05 12:05:46.194 DEBUG 7868 --- [http-nio-8080-exec-2] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/webjars/"]
-2019-07-05 12:05:46.203 DEBUG 7868 --- [http-nio-8080-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/javascript, */*;q=0.01] and supported [application/hal+json, application/json]
-2019-07-05 12:05:46.203 DEBUG 7868 --- [http-nio-8080-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/javascript, */*;q=0.01] and supported [application/hal+json, application/json]
-2019-07-05 12:05:46.204 DEBUG 7868 --- [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/javascript, */*;q=0.01] and supported [application/hal+json, application/json]
-2019-07-05 12:05:46.205 DEBUG 7868 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 304 NOT_MODIFIED
-2019-07-05 12:05:46.205 DEBUG 7868 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 304 NOT_MODIFIED
-2019-07-05 12:05:46.219 DEBUG 7868 --- [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Fri Jul 05 12:05:46 CAT 2019, status=404, error=Not Found, message=No message available,  (truncated)...]
-2019-07-05 12:05:46.219 DEBUG 7868 --- [http-nio-8080-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Fri Jul 05 12:05:46 CAT 2019, status=404, error=Not Found, message=No message available,  (truncated)...]
-2019-07-05 12:05:46.219 DEBUG 7868 --- [http-nio-8080-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Fri Jul 05 12:05:46 CAT 2019, status=404, error=Not Found, message=No message available,  (truncated)...]
-2019-07-05 12:05:46.268 DEBUG 7868 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
-2019-07-05 12:05:46.268 DEBUG 7868 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
-2019-07-05 12:05:46.268 DEBUG 7868 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2019-07-30 10:13:38.973  INFO 6136 --- [restartedMain] z.c.a.b.BookmanagementApplication        : Starting BookmanagementApplication on Reverside with PID 6136 (F:\bookmanagement\target\classes started by Celeste in F:\bookmanagement)
+2019-07-30 10:13:39.005  INFO 6136 --- [restartedMain] z.c.a.b.BookmanagementApplication        : No active profile set, falling back to default profiles: default
+2019-07-30 10:13:39.086  INFO 6136 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-07-30 10:13:39.086  INFO 6136 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-07-30 10:13:40.419  INFO 6136 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-07-30 10:13:40.518  INFO 6136 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 89ms. Found 2 repository interfaces.
+2019-07-30 10:13:41.113  INFO 6136 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d70c43b4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-30 10:13:41.156  INFO 6136 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$568c90e6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-30 10:13:42.149  INFO 6136 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-07-30 10:13:42.184  INFO 6136 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-07-30 10:13:42.185  INFO 6136 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-07-30 10:13:42.369  INFO 6136 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-07-30 10:13:42.370 DEBUG 6136 --- [restartedMain] o.s.web.context.ContextLoader            : Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2019-07-30 10:13:42.371  INFO 6136 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3284 ms
+2019-07-30 10:13:42.701  INFO 6136 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-07-30 10:13:42.902  INFO 6136 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-07-30 10:13:44.404  INFO 6136 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-07-30 10:13:44.441  INFO 6136 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-07-30 10:13:44.566  WARN 6136 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Initialization of bean failed; nested exception is org.springframework.jdbc.datasource.init.ScriptStatementFailedException: Failed to execute SQL script statement #2 of URL [file:/F:/bookmanagement/target/classes/data.sql]: insert into Library(name,address); nested exception is org.h2.jdbc.JdbcSQLSyntaxErrorException: Column "ADDRESS" not found; SQL statement:
+insert into Library(name,address) [42122-199]
+2019-07-30 10:13:44.581  INFO 6136 --- [restartedMain] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-199]
+2019-07-30 10:13:44.583  INFO 6136 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-07-30 10:13:44.591  INFO 6136 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2019-07-30 10:13:44.596  INFO 6136 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2019-07-30 10:13:44.648  INFO 6136 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-07-30 10:13:44.778 ERROR 6136 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Initialization of bean failed; nested exception is org.springframework.jdbc.datasource.init.ScriptStatementFailedException: Failed to execute SQL script statement #2 of URL [file:/F:/bookmanagement/target/classes/data.sql]: insert into Library(name,address); nested exception is org.h2.jdbc.JdbcSQLSyntaxErrorException: Column "ADDRESS" not found; SQL statement:
+insert into Library(name,address) [42122-199]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:601) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1105) ~[spring-context-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:867) ~[spring-context-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549) ~[spring-context-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:142) ~[spring-boot-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775) [spring-boot-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397) [spring-boot-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316) [spring-boot-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260) [spring-boot-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248) [spring-boot-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at za.co.africa.bookmanagement.BookmanagementApplication.main(BookmanagementApplication.java:13) [classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_131]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_131]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_131]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_131]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) [spring-boot-devtools-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+Caused by: org.springframework.jdbc.datasource.init.ScriptStatementFailedException: Failed to execute SQL script statement #2 of URL [file:/F:/bookmanagement/target/classes/data.sql]: insert into Library(name,address); nested exception is org.h2.jdbc.JdbcSQLSyntaxErrorException: Column "ADDRESS" not found; SQL statement:
+insert into Library(name,address) [42122-199]
+	at org.springframework.jdbc.datasource.init.ScriptUtils.executeSqlScript(ScriptUtils.java:509) ~[spring-jdbc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.jdbc.datasource.init.ResourceDatabasePopulator.populate(ResourceDatabasePopulator.java:238) ~[spring-jdbc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.jdbc.datasource.init.DatabasePopulatorUtils.execute(DatabasePopulatorUtils.java:48) ~[spring-jdbc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.boot.autoconfigure.jdbc.DataSourceInitializer.runScripts(DataSourceInitializer.java:210) ~[spring-boot-autoconfigure-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.springframework.boot.autoconfigure.jdbc.DataSourceInitializer.initSchema(DataSourceInitializer.java:123) ~[spring-boot-autoconfigure-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker.onApplicationEvent(DataSourceInitializerInvoker.java:93) ~[spring-boot-autoconfigure-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker.onApplicationEvent(DataSourceInitializerInvoker.java:37) ~[spring-boot-autoconfigure-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172) ~[spring-context-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165) ~[spring-context-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139) ~[spring-context-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:402) ~[spring-context-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:359) ~[spring-context-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.boot.autoconfigure.orm.jpa.DataSourceInitializedPublisher.publishEventIfRequired(DataSourceInitializedPublisher.java:98) ~[spring-boot-autoconfigure-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.springframework.boot.autoconfigure.orm.jpa.DataSourceInitializedPublisher.postProcessAfterInitialization(DataSourceInitializedPublisher.java:88) ~[spring-boot-autoconfigure-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsAfterInitialization(AbstractAutowireCapableBeanFactory.java:429) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1782) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:593) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	... 20 common frames omitted
+Caused by: org.h2.jdbc.JdbcSQLSyntaxErrorException: Column "ADDRESS" not found; SQL statement:
+insert into Library(name,address) [42122-199]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:451) ~[h2-1.4.199.jar:1.4.199]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:427) ~[h2-1.4.199.jar:1.4.199]
+	at org.h2.message.DbException.get(DbException.java:205) ~[h2-1.4.199.jar:1.4.199]
+	at org.h2.message.DbException.get(DbException.java:181) ~[h2-1.4.199.jar:1.4.199]
+	at org.h2.table.Table.getColumn(Table.java:708) ~[h2-1.4.199.jar:1.4.199]
+	at org.h2.command.Parser.parseColumn(Parser.java:1377) ~[h2-1.4.199.jar:1.4.199]
+	at org.h2.command.Parser.parseColumnList(Parser.java:1362) ~[h2-1.4.199.jar:1.4.199]
+	at org.h2.command.Parser.parseInsertGivenTable(Parser.java:1731) ~[h2-1.4.199.jar:1.4.199]
+	at org.h2.command.Parser.parseInsert(Parser.java:1684) ~[h2-1.4.199.jar:1.4.199]
+	at org.h2.command.Parser.parsePrepared(Parser.java:891) ~[h2-1.4.199.jar:1.4.199]
+	at org.h2.command.Parser.parse(Parser.java:788) ~[h2-1.4.199.jar:1.4.199]
+	at org.h2.command.Parser.parse(Parser.java:760) ~[h2-1.4.199.jar:1.4.199]
+	at org.h2.command.Parser.prepareCommand(Parser.java:683) ~[h2-1.4.199.jar:1.4.199]
+	at org.h2.engine.Session.prepareLocal(Session.java:627) ~[h2-1.4.199.jar:1.4.199]
+	at org.h2.engine.Session.prepareCommand(Session.java:565) ~[h2-1.4.199.jar:1.4.199]
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1292) ~[h2-1.4.199.jar:1.4.199]
+	at org.h2.jdbc.JdbcStatement.executeInternal(JdbcStatement.java:217) ~[h2-1.4.199.jar:1.4.199]
+	at org.h2.jdbc.JdbcStatement.execute(JdbcStatement.java:205) ~[h2-1.4.199.jar:1.4.199]
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:95) ~[HikariCP-3.2.0.jar:na]
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java) ~[HikariCP-3.2.0.jar:na]
+	at org.springframework.jdbc.datasource.init.ScriptUtils.executeSqlScript(ScriptUtils.java:488) ~[spring-jdbc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	... 36 common frames omitted
+
+2019-07-30 10:14:17.238  INFO 7112 --- [restartedMain] z.c.a.b.BookmanagementApplication        : Starting BookmanagementApplication on Reverside with PID 7112 (F:\bookmanagement\target\classes started by Celeste in F:\bookmanagement)
+2019-07-30 10:14:17.242  INFO 7112 --- [restartedMain] z.c.a.b.BookmanagementApplication        : No active profile set, falling back to default profiles: default
+2019-07-30 10:14:17.317  INFO 7112 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-07-30 10:14:17.317  INFO 7112 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-07-30 10:14:18.824  INFO 7112 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-07-30 10:14:18.917  INFO 7112 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 79ms. Found 2 repository interfaces.
+2019-07-30 10:14:19.541  INFO 7112 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$b38bd185] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-30 10:14:19.577  INFO 7112 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$330c1eb7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-30 10:14:20.605  INFO 7112 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-07-30 10:14:20.643  INFO 7112 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-07-30 10:14:20.644  INFO 7112 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-07-30 10:14:20.837  INFO 7112 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-07-30 10:14:20.837 DEBUG 7112 --- [restartedMain] o.s.web.context.ContextLoader            : Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2019-07-30 10:14:20.837  INFO 7112 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3519 ms
+2019-07-30 10:14:21.209  INFO 7112 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-07-30 10:14:21.433  INFO 7112 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-07-30 10:14:23.063  INFO 7112 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-07-30 10:14:23.102  INFO 7112 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-07-30 10:14:23.124  WARN 7112 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Initialization of bean failed; nested exception is org.springframework.jdbc.datasource.init.ScriptStatementFailedException: Failed to execute SQL script statement #2 of URL [file:/F:/bookmanagement/target/classes/data.sql]: insert into Library(name,address); nested exception is org.h2.jdbc.JdbcSQLSyntaxErrorException: Column "ADDRESS" not found; SQL statement:
+insert into Library(name,address) [42122-199]
+2019-07-30 10:14:23.127  INFO 7112 --- [restartedMain] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-199]
+2019-07-30 10:14:23.128  INFO 7112 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-07-30 10:14:23.131  INFO 7112 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2019-07-30 10:14:23.135  INFO 7112 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2019-07-30 10:14:23.148  INFO 7112 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-07-30 10:14:23.155 ERROR 7112 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Initialization of bean failed; nested exception is org.springframework.jdbc.datasource.init.ScriptStatementFailedException: Failed to execute SQL script statement #2 of URL [file:/F:/bookmanagement/target/classes/data.sql]: insert into Library(name,address); nested exception is org.h2.jdbc.JdbcSQLSyntaxErrorException: Column "ADDRESS" not found; SQL statement:
+insert into Library(name,address) [42122-199]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:601) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1105) ~[spring-context-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:867) ~[spring-context-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549) ~[spring-context-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:142) ~[spring-boot-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775) [spring-boot-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397) [spring-boot-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316) [spring-boot-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260) [spring-boot-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248) [spring-boot-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at za.co.africa.bookmanagement.BookmanagementApplication.main(BookmanagementApplication.java:13) [classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_131]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_131]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_131]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_131]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) [spring-boot-devtools-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+Caused by: org.springframework.jdbc.datasource.init.ScriptStatementFailedException: Failed to execute SQL script statement #2 of URL [file:/F:/bookmanagement/target/classes/data.sql]: insert into Library(name,address); nested exception is org.h2.jdbc.JdbcSQLSyntaxErrorException: Column "ADDRESS" not found; SQL statement:
+insert into Library(name,address) [42122-199]
+	at org.springframework.jdbc.datasource.init.ScriptUtils.executeSqlScript(ScriptUtils.java:509) ~[spring-jdbc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.jdbc.datasource.init.ResourceDatabasePopulator.populate(ResourceDatabasePopulator.java:238) ~[spring-jdbc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.jdbc.datasource.init.DatabasePopulatorUtils.execute(DatabasePopulatorUtils.java:48) ~[spring-jdbc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.boot.autoconfigure.jdbc.DataSourceInitializer.runScripts(DataSourceInitializer.java:210) ~[spring-boot-autoconfigure-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.springframework.boot.autoconfigure.jdbc.DataSourceInitializer.initSchema(DataSourceInitializer.java:123) ~[spring-boot-autoconfigure-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker.onApplicationEvent(DataSourceInitializerInvoker.java:93) ~[spring-boot-autoconfigure-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker.onApplicationEvent(DataSourceInitializerInvoker.java:37) ~[spring-boot-autoconfigure-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172) ~[spring-context-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165) ~[spring-context-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139) ~[spring-context-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:402) ~[spring-context-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:359) ~[spring-context-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.boot.autoconfigure.orm.jpa.DataSourceInitializedPublisher.publishEventIfRequired(DataSourceInitializedPublisher.java:98) ~[spring-boot-autoconfigure-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.springframework.boot.autoconfigure.orm.jpa.DataSourceInitializedPublisher.postProcessAfterInitialization(DataSourceInitializedPublisher.java:88) ~[spring-boot-autoconfigure-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsAfterInitialization(AbstractAutowireCapableBeanFactory.java:429) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1782) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:593) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	... 20 common frames omitted
+Caused by: org.h2.jdbc.JdbcSQLSyntaxErrorException: Column "ADDRESS" not found; SQL statement:
+insert into Library(name,address) [42122-199]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:451) ~[h2-1.4.199.jar:1.4.199]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:427) ~[h2-1.4.199.jar:1.4.199]
+	at org.h2.message.DbException.get(DbException.java:205) ~[h2-1.4.199.jar:1.4.199]
+	at org.h2.message.DbException.get(DbException.java:181) ~[h2-1.4.199.jar:1.4.199]
+	at org.h2.table.Table.getColumn(Table.java:708) ~[h2-1.4.199.jar:1.4.199]
+	at org.h2.command.Parser.parseColumn(Parser.java:1377) ~[h2-1.4.199.jar:1.4.199]
+	at org.h2.command.Parser.parseColumnList(Parser.java:1362) ~[h2-1.4.199.jar:1.4.199]
+	at org.h2.command.Parser.parseInsertGivenTable(Parser.java:1731) ~[h2-1.4.199.jar:1.4.199]
+	at org.h2.command.Parser.parseInsert(Parser.java:1684) ~[h2-1.4.199.jar:1.4.199]
+	at org.h2.command.Parser.parsePrepared(Parser.java:891) ~[h2-1.4.199.jar:1.4.199]
+	at org.h2.command.Parser.parse(Parser.java:788) ~[h2-1.4.199.jar:1.4.199]
+	at org.h2.command.Parser.parse(Parser.java:760) ~[h2-1.4.199.jar:1.4.199]
+	at org.h2.command.Parser.prepareCommand(Parser.java:683) ~[h2-1.4.199.jar:1.4.199]
+	at org.h2.engine.Session.prepareLocal(Session.java:627) ~[h2-1.4.199.jar:1.4.199]
+	at org.h2.engine.Session.prepareCommand(Session.java:565) ~[h2-1.4.199.jar:1.4.199]
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1292) ~[h2-1.4.199.jar:1.4.199]
+	at org.h2.jdbc.JdbcStatement.executeInternal(JdbcStatement.java:217) ~[h2-1.4.199.jar:1.4.199]
+	at org.h2.jdbc.JdbcStatement.execute(JdbcStatement.java:205) ~[h2-1.4.199.jar:1.4.199]
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:95) ~[HikariCP-3.2.0.jar:na]
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java) ~[HikariCP-3.2.0.jar:na]
+	at org.springframework.jdbc.datasource.init.ScriptUtils.executeSqlScript(ScriptUtils.java:488) ~[spring-jdbc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	... 36 common frames omitted
+
+2019-07-30 10:15:10.024  INFO 8644 --- [restartedMain] z.c.a.b.BookmanagementApplication        : Starting BookmanagementApplication on Reverside with PID 8644 (F:\bookmanagement\target\classes started by Celeste in F:\bookmanagement)
+2019-07-30 10:15:10.029  INFO 8644 --- [restartedMain] z.c.a.b.BookmanagementApplication        : No active profile set, falling back to default profiles: default
+2019-07-30 10:15:10.099  INFO 8644 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-07-30 10:15:10.099  INFO 8644 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-07-30 10:15:11.465  INFO 8644 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-07-30 10:15:11.555  INFO 8644 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 77ms. Found 2 repository interfaces.
+2019-07-30 10:15:12.189  INFO 8644 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$fdbba723] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-30 10:15:12.222  INFO 8644 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$7d3bf455] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-30 10:15:13.237  INFO 8644 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-07-30 10:15:13.281  INFO 8644 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-07-30 10:15:13.282  INFO 8644 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-07-30 10:15:13.472  INFO 8644 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-07-30 10:15:13.472 DEBUG 8644 --- [restartedMain] o.s.web.context.ContextLoader            : Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2019-07-30 10:15:13.473  INFO 8644 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3373 ms
+2019-07-30 10:15:13.877  INFO 8644 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-07-30 10:15:14.096  INFO 8644 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-07-30 10:15:15.803  INFO 8644 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-07-30 10:15:15.849  INFO 8644 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-07-30 10:15:15.875  WARN 8644 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Initialization of bean failed; nested exception is org.springframework.jdbc.datasource.init.UncategorizedScriptException: Failed to execute database script from resource [URL [file:/F:/bookmanagement/target/classes/data.sql]]; nested exception is java.lang.IllegalArgumentException: 'script' must not be null or empty
+2019-07-30 10:15:15.879  INFO 8644 --- [restartedMain] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-199]
+2019-07-30 10:15:15.880  INFO 8644 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-07-30 10:15:15.883  INFO 8644 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2019-07-30 10:15:15.887  INFO 8644 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2019-07-30 10:15:15.901  INFO 8644 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-07-30 10:15:15.908 ERROR 8644 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Initialization of bean failed; nested exception is org.springframework.jdbc.datasource.init.UncategorizedScriptException: Failed to execute database script from resource [URL [file:/F:/bookmanagement/target/classes/data.sql]]; nested exception is java.lang.IllegalArgumentException: 'script' must not be null or empty
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:601) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1105) ~[spring-context-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:867) ~[spring-context-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549) ~[spring-context-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:142) ~[spring-boot-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775) [spring-boot-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397) [spring-boot-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316) [spring-boot-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260) [spring-boot-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248) [spring-boot-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at za.co.africa.bookmanagement.BookmanagementApplication.main(BookmanagementApplication.java:13) [classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_131]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_131]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_131]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_131]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) [spring-boot-devtools-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+Caused by: org.springframework.jdbc.datasource.init.UncategorizedScriptException: Failed to execute database script from resource [URL [file:/F:/bookmanagement/target/classes/data.sql]]; nested exception is java.lang.IllegalArgumentException: 'script' must not be null or empty
+	at org.springframework.jdbc.datasource.init.ScriptUtils.executeSqlScript(ScriptUtils.java:532) ~[spring-jdbc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.jdbc.datasource.init.ResourceDatabasePopulator.populate(ResourceDatabasePopulator.java:238) ~[spring-jdbc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.jdbc.datasource.init.DatabasePopulatorUtils.execute(DatabasePopulatorUtils.java:48) ~[spring-jdbc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.boot.autoconfigure.jdbc.DataSourceInitializer.runScripts(DataSourceInitializer.java:210) ~[spring-boot-autoconfigure-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.springframework.boot.autoconfigure.jdbc.DataSourceInitializer.initSchema(DataSourceInitializer.java:123) ~[spring-boot-autoconfigure-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker.onApplicationEvent(DataSourceInitializerInvoker.java:93) ~[spring-boot-autoconfigure-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker.onApplicationEvent(DataSourceInitializerInvoker.java:37) ~[spring-boot-autoconfigure-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172) ~[spring-context-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165) ~[spring-context-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139) ~[spring-context-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:402) ~[spring-context-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:359) ~[spring-context-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.boot.autoconfigure.orm.jpa.DataSourceInitializedPublisher.publishEventIfRequired(DataSourceInitializedPublisher.java:98) ~[spring-boot-autoconfigure-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.springframework.boot.autoconfigure.orm.jpa.DataSourceInitializedPublisher.postProcessAfterInitialization(DataSourceInitializedPublisher.java:88) ~[spring-boot-autoconfigure-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsAfterInitialization(AbstractAutowireCapableBeanFactory.java:429) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1782) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:593) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	... 20 common frames omitted
+Caused by: java.lang.IllegalArgumentException: 'script' must not be null or empty
+	at org.springframework.util.Assert.hasText(Assert.java:284) ~[spring-core-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.jdbc.datasource.init.ScriptUtils.splitSqlScript(ScriptUtils.java:173) ~[spring-jdbc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.jdbc.datasource.init.ScriptUtils.executeSqlScript(ScriptUtils.java:479) ~[spring-jdbc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	... 36 common frames omitted
+
+2019-07-30 10:15:56.919  INFO 9840 --- [restartedMain] z.c.a.b.BookmanagementApplication        : Starting BookmanagementApplication on Reverside with PID 9840 (F:\bookmanagement\target\classes started by Celeste in F:\bookmanagement)
+2019-07-30 10:15:56.923  INFO 9840 --- [restartedMain] z.c.a.b.BookmanagementApplication        : No active profile set, falling back to default profiles: default
+2019-07-30 10:15:56.993  INFO 9840 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-07-30 10:15:56.993  INFO 9840 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-07-30 10:15:58.454  INFO 9840 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-07-30 10:15:58.564  INFO 9840 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 92ms. Found 2 repository interfaces.
+2019-07-30 10:15:59.192  INFO 9840 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$c35e2db5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-30 10:15:59.227  INFO 9840 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$42de7ae7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-30 10:16:00.243  INFO 9840 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-07-30 10:16:00.288  INFO 9840 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-07-30 10:16:00.288  INFO 9840 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-07-30 10:16:00.481  INFO 9840 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-07-30 10:16:00.482 DEBUG 9840 --- [restartedMain] o.s.web.context.ContextLoader            : Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2019-07-30 10:16:00.482  INFO 9840 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3488 ms
+2019-07-30 10:16:00.860  INFO 9840 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-07-30 10:16:01.079  INFO 9840 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-07-30 10:16:02.611  INFO 9840 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-07-30 10:16:02.648  INFO 9840 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-07-30 10:16:03.519  WARN 9840 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-07-30 10:16:03.841 DEBUG 9840 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 11 mappings in 'requestMappingHandlerMapping'
+2019-07-30 10:16:04.149 DEBUG 9840 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/**/favicon.ico] in 'faviconHandlerMapping'
+2019-07-30 10:16:04.290  INFO 9840 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-30 10:16:04.329 DEBUG 9840 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2019-07-30 10:16:04.396 DEBUG 9840 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2019-07-30 10:16:04.413 DEBUG 9840 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2019-07-30 10:16:04.916  INFO 9840 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2019-07-30 10:16:04.941  INFO 9840 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found {0} custom documentation plugin(s)
+2019-07-30 10:16:04.948  INFO 9840 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2019-07-30 10:16:04.954  INFO 9840 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method createBook was book-controller
+2019-07-30 10:16:04.957  INFO 9840 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Request mapping: createBook belongs to groups: [[ResourceGroup{groupName='book-controller', position=0, controller=za.co.africa.bookmanagement.controller.BookController}]] 
+2019-07-30 10:16:04.958  INFO 9840 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Adding resource to group:ResourceGroup{groupName='book-controller', position=0, controller=za.co.africa.bookmanagement.controller.BookController} with description:Book Controller for handler method:createBook
+2019-07-30 10:16:04.959  INFO 9840 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method getBookById was book-controller
+2019-07-30 10:16:04.959  INFO 9840 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Request mapping: getBookById belongs to groups: [[ResourceGroup{groupName='book-controller', position=0, controller=za.co.africa.bookmanagement.controller.BookController}]] 
+2019-07-30 10:16:04.960  INFO 9840 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Adding resource to group:ResourceGroup{groupName='book-controller', position=0, controller=za.co.africa.bookmanagement.controller.BookController} with description:Book Controller for handler method:getBookById
+2019-07-30 10:16:04.960  INFO 9840 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method getAllBooks was book-controller
+2019-07-30 10:16:04.961  INFO 9840 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Request mapping: getAllBooks belongs to groups: [[ResourceGroup{groupName='book-controller', position=0, controller=za.co.africa.bookmanagement.controller.BookController}]] 
+2019-07-30 10:16:04.961  INFO 9840 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Adding resource to group:ResourceGroup{groupName='book-controller', position=0, controller=za.co.africa.bookmanagement.controller.BookController} with description:Book Controller for handler method:getAllBooks
+2019-07-30 10:16:04.962  INFO 9840 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method updateBookById was book-controller
+2019-07-30 10:16:04.962  INFO 9840 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Request mapping: updateBookById belongs to groups: [[ResourceGroup{groupName='book-controller', position=0, controller=za.co.africa.bookmanagement.controller.BookController}]] 
+2019-07-30 10:16:04.963  INFO 9840 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Adding resource to group:ResourceGroup{groupName='book-controller', position=0, controller=za.co.africa.bookmanagement.controller.BookController} with description:Book Controller for handler method:updateBookById
+2019-07-30 10:16:04.963  INFO 9840 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method deleteBookById was book-controller
+2019-07-30 10:16:04.967  INFO 9840 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Request mapping: deleteBookById belongs to groups: [[ResourceGroup{groupName='book-controller', position=0, controller=za.co.africa.bookmanagement.controller.BookController}]] 
+2019-07-30 10:16:04.967  INFO 9840 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Adding resource to group:ResourceGroup{groupName='book-controller', position=0, controller=za.co.africa.bookmanagement.controller.BookController} with description:Book Controller for handler method:deleteBookById
+2019-07-30 10:16:04.968  INFO 9840 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method createLibrary was library-controller
+2019-07-30 10:16:04.968  INFO 9840 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Request mapping: createLibrary belongs to groups: [[ResourceGroup{groupName='library-controller', position=0, controller=za.co.africa.bookmanagement.controller.LibraryController}]] 
+2019-07-30 10:16:04.969  INFO 9840 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Adding resource to group:ResourceGroup{groupName='library-controller', position=0, controller=za.co.africa.bookmanagement.controller.LibraryController} with description:Library Controller for handler method:createLibrary
+2019-07-30 10:16:04.969  INFO 9840 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method getAllLibrary was library-controller
+2019-07-30 10:16:04.970  INFO 9840 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Request mapping: getAllLibrary belongs to groups: [[ResourceGroup{groupName='library-controller', position=0, controller=za.co.africa.bookmanagement.controller.LibraryController}]] 
+2019-07-30 10:16:04.970  INFO 9840 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Adding resource to group:ResourceGroup{groupName='library-controller', position=0, controller=za.co.africa.bookmanagement.controller.LibraryController} with description:Library Controller for handler method:getAllLibrary
+2019-07-30 10:16:04.971  INFO 9840 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2019-07-30 10:16:04.971  INFO 9840 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Request mapping: error belongs to groups: [[ResourceGroup{groupName='basic-error-controller', position=0, controller=org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController}]] 
+2019-07-30 10:16:04.972  INFO 9840 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Adding resource to group:ResourceGroup{groupName='basic-error-controller', position=0, controller=org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController} with description:Basic Error Controller for handler method:error
+2019-07-30 10:16:04.973  INFO 9840 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2019-07-30 10:16:04.974  INFO 9840 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Request mapping: errorHtml belongs to groups: [[ResourceGroup{groupName='basic-error-controller', position=0, controller=org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController}]] 
+2019-07-30 10:16:04.974  INFO 9840 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Adding resource to group:ResourceGroup{groupName='basic-error-controller', position=0, controller=org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController} with description:Basic Error Controller for handler method:errorHtml
+2019-07-30 10:16:04.976  INFO 9840 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Created resource listing Path: /default/book-controller Description: book-controller Position: 0
+2019-07-30 10:16:04.977  INFO 9840 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Created resource listing Path: /default/library-controller Description: library-controller Position: 0
+2019-07-30 10:16:04.978  INFO 9840 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Created resource listing Path: /default/basic-error-controller Description: basic-error-controller Position: 0
+2019-07-30 10:16:05.072  INFO 9840 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method createBook was book-controller
+2019-07-30 10:16:05.084  INFO 9840 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method getBookById was book-controller
+2019-07-30 10:16:05.104  INFO 9840 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method getAllBooks was book-controller
+2019-07-30 10:16:05.120  INFO 9840 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method updateBookById was book-controller
+2019-07-30 10:16:05.123  INFO 9840 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method deleteBookById was book-controller
+2019-07-30 10:16:05.149  INFO 9840 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method createLibrary was library-controller
+2019-07-30 10:16:05.163  INFO 9840 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method getAllLibrary was library-controller
+2019-07-30 10:16:05.166  INFO 9840 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2019-07-30 10:16:05.167  INFO 9840 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2019-07-30 10:16:05.169  INFO 9840 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2019-07-30 10:16:05.170  INFO 9840 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2019-07-30 10:16:05.171  INFO 9840 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2019-07-30 10:16:05.172  INFO 9840 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2019-07-30 10:16:05.173  INFO 9840 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2019-07-30 10:16:05.174  INFO 9840 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2019-07-30 10:16:05.188  INFO 9840 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2019-07-30 10:16:05.190  INFO 9840 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2019-07-30 10:16:05.191  INFO 9840 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2019-07-30 10:16:05.192  INFO 9840 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2019-07-30 10:16:05.193  INFO 9840 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2019-07-30 10:16:05.194  INFO 9840 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2019-07-30 10:16:05.195  INFO 9840 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2019-07-30 10:16:05.197  INFO 9840 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2019-07-30 10:16:05.230  INFO 9840 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-07-30 10:16:05.232  INFO 9840 --- [restartedMain] z.c.a.b.BookmanagementApplication        : Started BookmanagementApplication in 8.96 seconds (JVM running for 9.633)

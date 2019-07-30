@@ -7,8 +7,11 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
+import lombok.Data;
+
 @Entity
 @Table
+@Data
 public class Address {
 	@Id 
 	@GeneratedValue(strategy = GenerationType.AUTO)
@@ -22,6 +25,17 @@ public class Address {
 	
 	@Column
 	private String zip_Code;
+	
+	public Address() {}
+
+	public Address(int id, String city, String state, String zip_Code) {
+		super();
+		this.id = id;
+		this.city = city;
+		this.state = state;
+		this.zip_Code = zip_Code;
+	}
+	
 	
 
 }

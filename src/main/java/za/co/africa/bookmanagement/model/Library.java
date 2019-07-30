@@ -12,17 +12,22 @@ import javax.persistence.OneToMany;
 import javax.persistence.OneToOne;
 import javax.persistence.Table;
 
+import lombok.Builder;
+import lombok.Data;
+
 @Entity
 @Table
+@Data
+@Builder
 public class Library {
 	@Id 
 	@GeneratedValue(strategy = GenerationType.AUTO)
-	private int library_id;
+	private int id;
 	
 	@Column
 	private String name;	
 	
-	@OneToMany(mappedBy = "library",cascade = CascadeType.ALL,orphanRemoval= true)
+	@OneToMany(mappedBy = "library",cascade = CascadeType.REMOVE,orphanRemoval= true)
 	private List<Book> books;
 	
 	@OneToOne(cascade = CascadeType.ALL)
@@ -30,8 +35,8 @@ public class Library {
 	
 	public Library() {}	
 
-	public Library(int library_id, String name, List<Book> books, Address address) {		
-		this.library_id = library_id;
+	public Library(int id, String name, List<Book> books, Address address) {		
+		this.id = id;
 		this.name = name;
 		this.books = books;
 		this.address = address;
