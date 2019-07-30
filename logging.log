@@ -3968,3 +3968,13 @@ org.springframework.dao.EmptyResultDataAccessException: No class za.co.africa.bo
 2019-07-30 11:47:13.886 DEBUG 9840 --- [http-nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
 2019-07-30 11:47:13.899 DEBUG 9840 --- [http-nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [java.lang.StackOverflowError]
 2019-07-30 11:47:13.901 DEBUG 9840 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2019-07-30 11:51:05.016 DEBUG 9840 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/api/getBoooks", parameters={}
+2019-07-30 11:51:05.016 DEBUG 9840 --- [http-nio-8080-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public org.springframework.http.ResponseEntity<java.util.List<za.co.africa.bookmanagement.model.Book>> za.co.africa.bookmanagement.controller.BookController.getAllBooks()
+2019-07-30 11:51:05.021 DEBUG 9840 --- [http-nio-8080-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2019-07-30 11:51:05.026 DEBUG 9840 --- [http-nio-8080-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [java.lang.StackOverflowError]
+2019-07-30 11:51:05.028 DEBUG 9840 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2019-07-30 11:51:12.995 DEBUG 9840 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/api/getBoooks", parameters={}
+2019-07-30 11:51:12.996 DEBUG 9840 --- [http-nio-8080-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public org.springframework.http.ResponseEntity<java.util.List<za.co.africa.bookmanagement.model.Book>> za.co.africa.bookmanagement.controller.BookController.getAllBooks()
+2019-07-30 11:51:13.001 DEBUG 9840 --- [http-nio-8080-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2019-07-30 11:51:13.005 DEBUG 9840 --- [http-nio-8080-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [java.lang.StackOverflowError]
+2019-07-30 11:51:13.007 DEBUG 9840 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK

@@ -9,7 +9,7 @@ import { Routes, RouterModule } from '@angular/router';
 import { BookService } from './service/book.service';
 import { HttpClientModule } from '@angular/common/http';
 import {FormsModule, ReactiveFormsModule} from "@angular/forms";
-import { DeletebookComponent } from './deletebook/deletebook.component';
+
 
 const routes: Routes = [
   {path:'allbook', component: AllbookComponent},
@@ -20,8 +20,7 @@ const routes: Routes = [
   declarations: [
     AppComponent,
     AddbookComponent,
-    AllbookComponent,
-    DeletebookComponent,    
+    AllbookComponent       
   ],
   imports: [
     BrowserModule,

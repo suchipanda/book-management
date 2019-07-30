@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import {Book} from '../service/book';
 import {BookService} from '../service/book.service';
 import { from, Observable } from 'rxjs';
-import { DeletebookComponent } from '../deletebook/deletebook.component';
+
 
 @Component({
   selector: 'app-allbook',
