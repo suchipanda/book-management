@@ -3978,3 +3978,83 @@ org.springframework.dao.EmptyResultDataAccessException: No class za.co.africa.bo
 2019-07-30 11:51:13.001 DEBUG 9840 --- [http-nio-8080-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
 2019-07-30 11:51:13.005 DEBUG 9840 --- [http-nio-8080-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [java.lang.StackOverflowError]
 2019-07-30 11:51:13.007 DEBUG 9840 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2020-01-04 00:48:20.710  INFO 7096 --- [main] z.c.a.b.BookmanagementApplicationTests   : Starting BookmanagementApplicationTests on DESKTOP-R7ASVFM with PID 7096 (started by T440 in E:\eclipse workspace\book-management)
+2020-01-04 00:48:20.710  INFO 7096 --- [main] z.c.a.b.BookmanagementApplicationTests   : No active profile set, falling back to default profiles: default
+2020-01-04 00:48:20.804 DEBUG 7096 --- [main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@4470fbd6
+2020-01-04 00:48:23.129  INFO 7096 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-01-04 00:48:23.260  INFO 7096 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 111ms. Found 2 repository interfaces.
+2020-01-04 00:48:24.172  INFO 7096 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$279bbd62] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-01-04 00:48:24.282  INFO 7096 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$a71c0a94] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-01-04 00:48:24.688  INFO 7096 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-01-04 00:48:25.063  INFO 7096 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-01-04 00:48:27.603  INFO 7096 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-01-04 00:48:29.208  WARN 7096 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-01-04 00:48:29.792 DEBUG 7096 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 11 mappings in 'requestMappingHandlerMapping'
+2020-01-04 00:48:31.283 DEBUG 7096 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/**/favicon.ico] in 'faviconHandlerMapping'
+2020-01-04 00:48:31.690  INFO 7096 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-04 00:48:31.770 DEBUG 7096 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2020-01-04 00:48:31.914 DEBUG 7096 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2020-01-04 00:48:31.942 DEBUG 7096 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2020-01-04 00:48:32.613  INFO 7096 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2020-01-04 00:48:32.675  INFO 7096 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found {0} custom documentation plugin(s)
+2020-01-04 00:48:32.691  INFO 7096 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2020-01-04 00:48:32.722  INFO 7096 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method createBook was book-controller
+2020-01-04 00:48:32.738  INFO 7096 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Request mapping: createBook belongs to groups: [[ResourceGroup{groupName='book-controller', position=0, controller=za.co.africa.bookmanagement.controller.BookController}]] 
+2020-01-04 00:48:32.738  INFO 7096 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Adding resource to group:ResourceGroup{groupName='book-controller', position=0, controller=za.co.africa.bookmanagement.controller.BookController} with description:Book Controller for handler method:createBook
+2020-01-04 00:48:32.738  INFO 7096 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method getBookById was book-controller
+2020-01-04 00:48:32.738  INFO 7096 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Request mapping: getBookById belongs to groups: [[ResourceGroup{groupName='book-controller', position=0, controller=za.co.africa.bookmanagement.controller.BookController}]] 
+2020-01-04 00:48:32.738  INFO 7096 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Adding resource to group:ResourceGroup{groupName='book-controller', position=0, controller=za.co.africa.bookmanagement.controller.BookController} with description:Book Controller for handler method:getBookById
+2020-01-04 00:48:32.738  INFO 7096 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method getAllBooks was book-controller
+2020-01-04 00:48:32.738  INFO 7096 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Request mapping: getAllBooks belongs to groups: [[ResourceGroup{groupName='book-controller', position=0, controller=za.co.africa.bookmanagement.controller.BookController}]] 
+2020-01-04 00:48:32.738  INFO 7096 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Adding resource to group:ResourceGroup{groupName='book-controller', position=0, controller=za.co.africa.bookmanagement.controller.BookController} with description:Book Controller for handler method:getAllBooks
+2020-01-04 00:48:32.738  INFO 7096 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method updateBookById was book-controller
+2020-01-04 00:48:32.738  INFO 7096 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Request mapping: updateBookById belongs to groups: [[ResourceGroup{groupName='book-controller', position=0, controller=za.co.africa.bookmanagement.controller.BookController}]] 
+2020-01-04 00:48:32.738  INFO 7096 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Adding resource to group:ResourceGroup{groupName='book-controller', position=0, controller=za.co.africa.bookmanagement.controller.BookController} with description:Book Controller for handler method:updateBookById
+2020-01-04 00:48:32.738  INFO 7096 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method deleteBookById was book-controller
+2020-01-04 00:48:32.738  INFO 7096 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Request mapping: deleteBookById belongs to groups: [[ResourceGroup{groupName='book-controller', position=0, controller=za.co.africa.bookmanagement.controller.BookController}]] 
+2020-01-04 00:48:32.738  INFO 7096 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Adding resource to group:ResourceGroup{groupName='book-controller', position=0, controller=za.co.africa.bookmanagement.controller.BookController} with description:Book Controller for handler method:deleteBookById
+2020-01-04 00:48:32.738  INFO 7096 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method getAllLibrary was library-controller
+2020-01-04 00:48:32.754  INFO 7096 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Request mapping: getAllLibrary belongs to groups: [[ResourceGroup{groupName='library-controller', position=0, controller=za.co.africa.bookmanagement.controller.LibraryController}]] 
+2020-01-04 00:48:32.754  INFO 7096 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Adding resource to group:ResourceGroup{groupName='library-controller', position=0, controller=za.co.africa.bookmanagement.controller.LibraryController} with description:Library Controller for handler method:getAllLibrary
+2020-01-04 00:48:32.754  INFO 7096 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method createLibrary was library-controller
+2020-01-04 00:48:32.754  INFO 7096 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Request mapping: createLibrary belongs to groups: [[ResourceGroup{groupName='library-controller', position=0, controller=za.co.africa.bookmanagement.controller.LibraryController}]] 
+2020-01-04 00:48:32.754  INFO 7096 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Adding resource to group:ResourceGroup{groupName='library-controller', position=0, controller=za.co.africa.bookmanagement.controller.LibraryController} with description:Library Controller for handler method:createLibrary
+2020-01-04 00:48:32.754  INFO 7096 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2020-01-04 00:48:32.754  INFO 7096 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Request mapping: error belongs to groups: [[ResourceGroup{groupName='basic-error-controller', position=0, controller=org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController}]] 
+2020-01-04 00:48:32.754  INFO 7096 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Adding resource to group:ResourceGroup{groupName='basic-error-controller', position=0, controller=org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController} with description:Basic Error Controller for handler method:error
+2020-01-04 00:48:32.754  INFO 7096 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2020-01-04 00:48:32.754  INFO 7096 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Request mapping: errorHtml belongs to groups: [[ResourceGroup{groupName='basic-error-controller', position=0, controller=org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController}]] 
+2020-01-04 00:48:32.754  INFO 7096 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Adding resource to group:ResourceGroup{groupName='basic-error-controller', position=0, controller=org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController} with description:Basic Error Controller for handler method:errorHtml
+2020-01-04 00:48:32.754  INFO 7096 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Created resource listing Path: /default/library-controller Description: library-controller Position: 0
+2020-01-04 00:48:32.769  INFO 7096 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Created resource listing Path: /default/book-controller Description: book-controller Position: 0
+2020-01-04 00:48:32.769  INFO 7096 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Created resource listing Path: /default/basic-error-controller Description: basic-error-controller Position: 0
+2020-01-04 00:48:32.972  INFO 7096 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method getAllLibrary was library-controller
+2020-01-04 00:48:33.019  INFO 7096 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method createLibrary was library-controller
+2020-01-04 00:48:33.129  INFO 7096 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method createBook was book-controller
+2020-01-04 00:48:33.144  INFO 7096 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method getBookById was book-controller
+2020-01-04 00:48:33.175  INFO 7096 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method getAllBooks was book-controller
+2020-01-04 00:48:33.191  INFO 7096 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method updateBookById was book-controller
+2020-01-04 00:48:33.207  INFO 7096 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method deleteBookById was book-controller
+2020-01-04 00:48:33.222  INFO 7096 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2020-01-04 00:48:33.222  INFO 7096 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2020-01-04 00:48:33.222  INFO 7096 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2020-01-04 00:48:33.222  INFO 7096 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2020-01-04 00:48:33.222  INFO 7096 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2020-01-04 00:48:33.222  INFO 7096 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2020-01-04 00:48:33.238  INFO 7096 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2020-01-04 00:48:33.238  INFO 7096 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2020-01-04 00:48:33.285  INFO 7096 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2020-01-04 00:48:33.285  INFO 7096 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2020-01-04 00:48:33.285  INFO 7096 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2020-01-04 00:48:33.285  INFO 7096 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2020-01-04 00:48:33.285  INFO 7096 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2020-01-04 00:48:33.285  INFO 7096 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2020-01-04 00:48:33.300  INFO 7096 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2020-01-04 00:48:33.300  INFO 7096 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2020-01-04 00:48:33.316  INFO 7096 --- [main] z.c.a.b.BookmanagementApplicationTests   : Started BookmanagementApplicationTests in 13.434 seconds (JVM running for 15.925)
+2020-01-04 00:48:34.425 DEBUG 7096 --- [Thread-4] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@4470fbd6, started on Sat Jan 04 00:48:20 CAT 2020
+2020-01-04 00:48:34.441  INFO 7096 --- [Thread-4] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-01-04 00:48:34.441  INFO 7096 --- [Thread-4] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-01-04 00:48:34.472  INFO 7096 --- [Thread-4] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-199]
+2020-01-04 00:48:34.472  INFO 7096 --- [Thread-4] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-01-04 00:48:34.472  INFO 7096 --- [Thread-4] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
