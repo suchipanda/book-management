@@ -4058,3 +4058,122 @@ org.springframework.dao.EmptyResultDataAccessException: No class za.co.africa.bo
 2020-01-04 00:48:34.472  INFO 7096 --- [Thread-4] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-199]
 2020-01-04 00:48:34.472  INFO 7096 --- [Thread-4] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
 2020-01-04 00:48:34.472  INFO 7096 --- [Thread-4] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-01-04 17:09:57.751  INFO 15000 --- [restartedMain] z.c.a.b.BookmanagementApplication        : Starting BookmanagementApplication on DESKTOP-R7ASVFM with PID 15000 (started by T440 in E:\eclipse projects\book-management)
+2020-01-04 17:09:57.759  INFO 15000 --- [restartedMain] z.c.a.b.BookmanagementApplication        : No active profile set, falling back to default profiles: default
+2020-01-04 17:09:57.926  INFO 15000 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-01-04 17:09:57.926  INFO 15000 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-01-04 17:10:02.770  INFO 15000 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-01-04 17:10:02.984  INFO 15000 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 152ms. Found 2 repository interfaces.
+2020-01-04 17:10:04.706  INFO 15000 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$3f60dab9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-01-04 17:10:04.807  INFO 15000 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$bee127eb] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-01-04 17:10:07.221  INFO 15000 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8085 (http)
+2020-01-04 17:10:07.296  INFO 15000 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-01-04 17:10:07.300  INFO 15000 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.17]
+2020-01-04 17:10:07.757  INFO 15000 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-01-04 17:10:07.757 DEBUG 15000 --- [restartedMain] o.s.web.context.ContextLoader            : Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2020-01-04 17:10:07.757  INFO 15000 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 9831 ms
+2020-01-04 17:10:08.564  INFO 15000 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-01-04 17:10:09.142  INFO 15000 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-01-04 17:10:11.701  INFO 15000 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-01-04 17:10:11.757  INFO 15000 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-01-04 17:10:13.937  WARN 15000 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-01-04 17:10:14.591 DEBUG 15000 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 11 mappings in 'requestMappingHandlerMapping'
+2020-01-04 17:10:15.319 DEBUG 15000 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/**/favicon.ico] in 'faviconHandlerMapping'
+2020-01-04 17:10:15.662  INFO 15000 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-04 17:10:15.803 DEBUG 15000 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2020-01-04 17:10:15.965 DEBUG 15000 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2020-01-04 17:10:15.995 DEBUG 15000 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2020-01-04 17:10:17.074  INFO 15000 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2020-01-04 17:10:17.153  INFO 15000 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found {0} custom documentation plugin(s)
+2020-01-04 17:10:17.165  INFO 15000 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2020-01-04 17:10:17.195  INFO 15000 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method getAllBooks was book-controller
+2020-01-04 17:10:17.203  INFO 15000 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Request mapping: getAllBooks belongs to groups: [[ResourceGroup{groupName='book-controller', position=0, controller=za.co.africa.bookmanagement.controller.BookController}]] 
+2020-01-04 17:10:17.203  INFO 15000 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Adding resource to group:ResourceGroup{groupName='book-controller', position=0, controller=za.co.africa.bookmanagement.controller.BookController} with description:Book Controller for handler method:getAllBooks
+2020-01-04 17:10:17.205  INFO 15000 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method deleteBookById was book-controller
+2020-01-04 17:10:17.205  INFO 15000 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Request mapping: deleteBookById belongs to groups: [[ResourceGroup{groupName='book-controller', position=0, controller=za.co.africa.bookmanagement.controller.BookController}]] 
+2020-01-04 17:10:17.205  INFO 15000 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Adding resource to group:ResourceGroup{groupName='book-controller', position=0, controller=za.co.africa.bookmanagement.controller.BookController} with description:Book Controller for handler method:deleteBookById
+2020-01-04 17:10:17.205  INFO 15000 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method getBookById was book-controller
+2020-01-04 17:10:17.213  INFO 15000 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Request mapping: getBookById belongs to groups: [[ResourceGroup{groupName='book-controller', position=0, controller=za.co.africa.bookmanagement.controller.BookController}]] 
+2020-01-04 17:10:17.215  INFO 15000 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Adding resource to group:ResourceGroup{groupName='book-controller', position=0, controller=za.co.africa.bookmanagement.controller.BookController} with description:Book Controller for handler method:getBookById
+2020-01-04 17:10:17.226  INFO 15000 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method createBook was book-controller
+2020-01-04 17:10:17.226  INFO 15000 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Request mapping: createBook belongs to groups: [[ResourceGroup{groupName='book-controller', position=0, controller=za.co.africa.bookmanagement.controller.BookController}]] 
+2020-01-04 17:10:17.236  INFO 15000 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Adding resource to group:ResourceGroup{groupName='book-controller', position=0, controller=za.co.africa.bookmanagement.controller.BookController} with description:Book Controller for handler method:createBook
+2020-01-04 17:10:17.246  INFO 15000 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method updateBookById was book-controller
+2020-01-04 17:10:17.254  INFO 15000 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Request mapping: updateBookById belongs to groups: [[ResourceGroup{groupName='book-controller', position=0, controller=za.co.africa.bookmanagement.controller.BookController}]] 
+2020-01-04 17:10:17.256  INFO 15000 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Adding resource to group:ResourceGroup{groupName='book-controller', position=0, controller=za.co.africa.bookmanagement.controller.BookController} with description:Book Controller for handler method:updateBookById
+2020-01-04 17:10:17.256  INFO 15000 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method createLibrary was library-controller
+2020-01-04 17:10:17.266  INFO 15000 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Request mapping: createLibrary belongs to groups: [[ResourceGroup{groupName='library-controller', position=0, controller=za.co.africa.bookmanagement.controller.LibraryController}]] 
+2020-01-04 17:10:17.274  INFO 15000 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Adding resource to group:ResourceGroup{groupName='library-controller', position=0, controller=za.co.africa.bookmanagement.controller.LibraryController} with description:Library Controller for handler method:createLibrary
+2020-01-04 17:10:17.276  INFO 15000 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method getAllLibrary was library-controller
+2020-01-04 17:10:17.276  INFO 15000 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Request mapping: getAllLibrary belongs to groups: [[ResourceGroup{groupName='library-controller', position=0, controller=za.co.africa.bookmanagement.controller.LibraryController}]] 
+2020-01-04 17:10:17.276  INFO 15000 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Adding resource to group:ResourceGroup{groupName='library-controller', position=0, controller=za.co.africa.bookmanagement.controller.LibraryController} with description:Library Controller for handler method:getAllLibrary
+2020-01-04 17:10:17.276  INFO 15000 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2020-01-04 17:10:17.276  INFO 15000 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Request mapping: error belongs to groups: [[ResourceGroup{groupName='basic-error-controller', position=0, controller=org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController}]] 
+2020-01-04 17:10:17.276  INFO 15000 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Adding resource to group:ResourceGroup{groupName='basic-error-controller', position=0, controller=org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController} with description:Basic Error Controller for handler method:error
+2020-01-04 17:10:17.284  INFO 15000 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2020-01-04 17:10:17.286  INFO 15000 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Request mapping: errorHtml belongs to groups: [[ResourceGroup{groupName='basic-error-controller', position=0, controller=org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController}]] 
+2020-01-04 17:10:17.286  INFO 15000 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Adding resource to group:ResourceGroup{groupName='basic-error-controller', position=0, controller=org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController} with description:Basic Error Controller for handler method:errorHtml
+2020-01-04 17:10:17.286  INFO 15000 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Created resource listing Path: /default/basic-error-controller Description: basic-error-controller Position: 0
+2020-01-04 17:10:17.296  INFO 15000 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Created resource listing Path: /default/library-controller Description: library-controller Position: 0
+2020-01-04 17:10:17.296  INFO 15000 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Created resource listing Path: /default/book-controller Description: book-controller Position: 0
+2020-01-04 17:10:17.367  INFO 15000 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2020-01-04 17:10:17.417  INFO 15000 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2020-01-04 17:10:17.427  INFO 15000 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2020-01-04 17:10:17.427  INFO 15000 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2020-01-04 17:10:17.446  INFO 15000 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2020-01-04 17:10:17.448  INFO 15000 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2020-01-04 17:10:17.456  INFO 15000 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2020-01-04 17:10:17.458  INFO 15000 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2020-01-04 17:10:17.599  INFO 15000 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2020-01-04 17:10:17.609  INFO 15000 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2020-01-04 17:10:17.619  INFO 15000 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2020-01-04 17:10:17.629  INFO 15000 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2020-01-04 17:10:17.629  INFO 15000 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2020-01-04 17:10:17.649  INFO 15000 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2020-01-04 17:10:17.659  INFO 15000 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2020-01-04 17:10:17.677  INFO 15000 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2020-01-04 17:10:17.801  INFO 15000 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method createLibrary was library-controller
+2020-01-04 17:10:17.919  INFO 15000 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method getAllLibrary was library-controller
+2020-01-04 17:10:17.962  INFO 15000 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method getAllBooks was book-controller
+2020-01-04 17:10:17.980  INFO 15000 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method deleteBookById was book-controller
+2020-01-04 17:10:18.010  INFO 15000 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method getBookById was book-controller
+2020-01-04 17:10:18.093  INFO 15000 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method createBook was book-controller
+2020-01-04 17:10:18.133  INFO 15000 --- [restartedMain] s.w.ClassOrApiAnnotationResourceGrouping : Group for method updateBookById was book-controller
+2020-01-04 17:10:18.248  INFO 15000 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8085 (http) with context path ''
+2020-01-04 17:10:18.262  INFO 15000 --- [restartedMain] z.c.a.b.BookmanagementApplication        : Started BookmanagementApplication in 21.898 seconds (JVM running for 23.232)
+2020-01-04 17:10:24.821  INFO 15000 --- [http-nio-8085-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-01-04 17:10:24.821  INFO 15000 --- [http-nio-8085-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-01-04 17:10:24.821 DEBUG 15000 --- [http-nio-8085-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2020-01-04 17:10:24.890 DEBUG 15000 --- [http-nio-8085-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2020-01-04 17:10:24.898  INFO 15000 --- [http-nio-8085-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 77 ms
+2020-01-04 17:10:24.930 DEBUG 15000 --- [http-nio-8085-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2020-01-04 17:10:25.042 DEBUG 15000 --- [http-nio-8085-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/hal+json;q=0.8', given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8] and supported [application/hal+json]
+2020-01-04 17:10:25.118 DEBUG 15000 --- [http-nio-8085-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [links: [<http://localhost:8085/libraries{?page,size,sort}>;rel="libraries", <http://localhost:8085/b (truncated)...]
+2020-01-04 17:10:25.222 DEBUG 15000 --- [http-nio-8085-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2020-01-04 17:10:25.350 DEBUG 15000 --- [http-nio-8085-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/favicon.ico", parameters={}
+2020-01-04 17:10:25.374 DEBUG 15000 --- [http-nio-8085-exec-2] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/], ServletContext resource [/], class path resource []]
+2020-01-04 17:10:25.466 DEBUG 15000 --- [http-nio-8085-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2020-01-04 17:11:57.996 DEBUG 15000 --- [http-nio-8085-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2020-01-04 17:11:58.013 DEBUG 15000 --- [http-nio-8085-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/hal+json;q=0.8', given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8] and supported [application/hal+json]
+2020-01-04 17:11:58.017 DEBUG 15000 --- [http-nio-8085-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [links: [<http://localhost:8085/libraries{?page,size,sort}>;rel="libraries", <http://localhost:8085/b (truncated)...]
+2020-01-04 17:11:58.021 DEBUG 15000 --- [http-nio-8085-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2020-01-04 17:12:10.063 DEBUG 15000 --- [http-nio-8085-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/book-management", parameters={}
+2020-01-04 17:12:10.090 DEBUG 15000 --- [http-nio-8085-exec-7] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2020-01-04 17:12:10.094 DEBUG 15000 --- [http-nio-8085-exec-7] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2020-01-04 17:12:10.094 DEBUG 15000 --- [http-nio-8085-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2020-01-04 17:12:10.098 DEBUG 15000 --- [http-nio-8085-exec-7] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2020-01-04 17:12:10.106 DEBUG 15000 --- [http-nio-8085-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2020-01-04 17:12:10.134 DEBUG 15000 --- [http-nio-8085-exec-7] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, text/html;q=0.8]
+2020-01-04 17:12:10.150 DEBUG 15000 --- [http-nio-8085-exec-7] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2020-01-04 17:12:20.764 DEBUG 15000 --- [http-nio-8085-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/login", parameters={}
+2020-01-04 17:12:20.788 DEBUG 15000 --- [http-nio-8085-exec-9] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2020-01-04 17:12:20.798 DEBUG 15000 --- [http-nio-8085-exec-9] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2020-01-04 17:12:20.798 DEBUG 15000 --- [http-nio-8085-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2020-01-04 17:12:20.798 DEBUG 15000 --- [http-nio-8085-exec-9] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2020-01-04 17:12:20.806 DEBUG 15000 --- [http-nio-8085-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2020-01-04 17:12:20.814 DEBUG 15000 --- [http-nio-8085-exec-9] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, text/html;q=0.8]
+2020-01-04 17:12:20.814 DEBUG 15000 --- [http-nio-8085-exec-9] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2020-01-04 17:16:53.756 DEBUG 15000 --- [http-nio-8085-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2020-01-04 17:16:53.772 DEBUG 15000 --- [http-nio-8085-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/hal+json;q=0.8', given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8] and supported [application/hal+json]
+2020-01-04 17:16:53.776 DEBUG 15000 --- [http-nio-8085-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [links: [<http://localhost:8085/libraries{?page,size,sort}>;rel="libraries", <http://localhost:8085/b (truncated)...]
+2020-01-04 17:16:53.780 DEBUG 15000 --- [http-nio-8085-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
